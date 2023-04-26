@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-D:\11.C\WPFTermekek\obj\Debug\net6.0-windows\
+C:\Users\Tom-PC\source\repos\WPFTermekek\WPFTermekek\obj\Debug\net6.0-windows\
 WPFTermekek
 none
 false
 TRACE;DEBUG;NET;NET6_0;NETCOREAPP
-D:\11.C\WPFTermekek\App.xaml
-11407045341
+C:\Users\Tom-PC\source\repos\WPFTermekek\WPFTermekek\App.xaml
+2537245656
 
-6-1061510307
-201-1496847699
-MainWindow.xaml;
+8-189686655
+201-668403669
+MainWindow.xaml;MVVM\View\MainView.xaml;
 
 False
 
