@@ -40,15 +40,17 @@
                    Grid.Column="1"
                    Background="Cornsilk"
                    Margin="5"
-                   ItemsSource="{Binding Termekek}"
+                   ItemsSource="{Binding TermekekCollection}"
                    CanUserAddRows="False"
+                   SelectionMode="Single"
                    CanUserDeleteRows="False"
+                   AutoGenerateColumns="False"
                    >
             <DataGrid.Columns>
-                <DataGridTextColumn Header="Kategória" Binding="{Binding kategoria}"/>
-                <DataGridTextColumn Header="Gyártó" Binding="{Binding gyarto}"/>
-                <DataGridTextColumn Header="Név" Binding="{Binding nev}"/>
-                <DataGridTextColumn Header="Ár" Binding="{Binding Ar}"/>
+                <DataGridTextColumn Header="Kategória" Binding="{Binding kategoria, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Gyártó" Binding="{Binding gyarto, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Név" Binding="{Binding nev, Mode=OneWay}"/>
+                <DataGridTextColumn Header="Ár" Binding="{Binding Ar, Mode=OneWay}"/>
                 <DataGridTextColumn Header="Garidő" Binding="{Binding Garido}"/>
             </DataGrid.Columns>
 
